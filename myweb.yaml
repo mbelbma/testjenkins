@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: httpd:2.4
+      - image: mbel91/hellowhale:53
         imagePullPolicy: Always
         name: myweb
 
